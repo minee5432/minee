@@ -1,0 +1,29 @@
+import java.util.*;
+
+class Employee {
+private String name;
+private String phone;
+private double salary;
+
+public String getName()  { return name; }
+public void setName(String n) { name = n;}
+public String getPhone() { return phone; }
+public void setPhone(String p) {phone = p;}
+public double getSalary() {return salary; }
+public void setSalary(double s) {salary = s;}
+}
+
+
+public class EmployeeTest{
+public static void main(String[] args){
+
+Employee myEm = new Employee();
+
+myEm.setName("홍길동");
+myEm.setPhone("010-0000-0000");
+myEm.setSalary(50000);
+
+System.out.println("직원 이름 : " + myEm.getName());
+System.out.println("직원 전화번호 : " +myEm.getPhone());
+System.out.println("직원 연봉 : " +myEm.getSalary());
+}}
