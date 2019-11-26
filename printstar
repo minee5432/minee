@@ -1,0 +1,26 @@
+ import java.util.*;
+
+public class NestedLoop {
+public static void main(String[] args) {
+
+for (int y=0; y<5; y++) {
+for (int x= 0; x<5; x++)
+if (x<y)
+System.out.println("  ");
+else
+System.out.print("☆");}}}
+
+ 
+
+import java.util.*;
+
+public class NestedLoop {
+public static void main(String[] args) {
+
+for (int y=5; y>0; y--) {
+for (int x=y; x>0; x--){
+
+System.out.print("*");}
+
+System.out.println("");
+}}}
